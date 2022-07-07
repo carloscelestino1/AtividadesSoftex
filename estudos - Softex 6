@@ -1,0 +1,7 @@
+contador <= 75
+enquanto contador <=75 faca
+	caracter aluno < - escreva (“nome do aluno: ”)
+	leia (aluno)
+caracter nota <- escreva (“nota do aluno: ”)
+	leia (nota)
+contador <= contador + 1
