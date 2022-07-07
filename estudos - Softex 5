@@ -1,0 +1,12 @@
+caracter Transporte <- escreva(“Tem rodas?”)
+leia (Transporte)<- Sim
+se Transporte <- Sim
+	então escreva(“trator, moto, bicicleta, trem, carro, caminhão, ônibus, avião, helicóptero”)
+seNão escreva(“paraquedas, balão, submarino, barco, navio, lancha.”)
+fimSe
+caracter Transporte <- escreva(“Tem motor?”)
+leia (Transporte)<- Não
+se Transporte <- Sim
+	então escreva(“trator, moto, trem, carro caminhão, ônibus, avião, helicóptero.”)
+senão escreva(“ bicicleta”)
+fimSe
