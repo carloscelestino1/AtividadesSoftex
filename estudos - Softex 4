@@ -1,0 +1,31 @@
+Resposta:
+caracter Nome<- escreva(“Qual o nome do animal?”)
+leia (Nome)<- Peludo
+caracter Endereço<- escreva(“Qual o endereço?”)
+leia (endereço)<- Rua cafeeiro, quadra A10, n° 20.
+caracter Cidade<- escreva(“Qual a cidade?”)
+leia (Cidade)<- Paulista.
+inteiro Cpf<- escreva(“Qual o CPF do tutor?”)
+leia (Cpf) <- 09255508844
+inteiro RG<- escreva(“Qual o RG do tutor?”)
+leia (RG) <- 7666700
+real Idade<- escreva(“Qual a idade do pet?”)
+leia (Idade)<- 0.4
+caracter NomeTutor<- escreva(“Qual o nome do tutor?”)
+leia (NomeTutor)<- Carlos
+caracter NomeTutora<- escreva(“Qual o nome da tutora?”)
+leia (NomeTutora)<- Marina
+real Peso<-- escreva(“Qual o peso do pet?”)
+leia (Peso)<- 4.0
+real RendaTutores<- escreva(“Qual a renda bruta dos tutores?”)
+leia (RendaTutores)<- 4.000
+- Qual o nome do animal? Peludo
+- Qual o endereço? Rua cafeeiro, quadra A10, n° 20.
+- Qual a cidade? Paulista
+- Qual o CPF do tutor? 09255508844
+- Qual o RG do tutor? 7666700
+- Qual a idade do pet? 0.4
+- Qual o nome do tutor? Carlos
+- Qual o nome da tutora? Marina
+- Qual o peso do pet? 4.0
+- Qual a renda bruta dos tutores? 4.000
