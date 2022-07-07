@@ -1,0 +1,10 @@
+lista = []
+contador = 0
+enquanto contador < 10:
+	inteiro n <- escreva(“digite um numero: “)
+	leia n
+	adicione n na lista
+	contador <- contador + 1
+fimenquanto
+sort.lista
+escreva(lista)
