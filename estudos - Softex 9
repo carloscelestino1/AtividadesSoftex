@@ -1,0 +1,13 @@
+class CalcularNumeros():
+    def calculo(self, num1, num2, num3):
+        soma = num1 + num2 + num3
+        subtrair = num1 - num2 - num3
+        multplicar = num1 * num2 * num3
+        dividir = num1 / num2 / num3
+        print("A soma é: ", soma,". A subtração é: ", subtrair, ". A multiplicação é: ", multplicar, ". A divisão é: ", dividir)
+
+calcular = CalcularNumeros()
+num1 = int(input("digite um numero: "))
+num2 = int(input("digite um numero: "))
+num3 = int(input("digite um numero: "))
+calcular.calculo(num1, num2, num3)
