@@ -1,0 +1,14 @@
+aluno = input("nome do aluno: ")
+nota1 = int(input("nota 1: "))
+nota2 = int(input("nota 2: "))
+media = (nota1 + nota2)/2
+faltas = int(input("faltas: "))
+
+if media <= 7 ou faltas > 3:
+  print("aluno reprovado!")
+
+elif media >= 7:
+  print("aluno aprovado!")
+
+else:
+  print("aluno reprovado!")
