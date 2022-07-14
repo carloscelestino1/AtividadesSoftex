@@ -1,0 +1,48 @@
+class Automovel():
+    atributos:
+    def __init__():
+        self.cor = ?
+        self.peso = ?
+        self.modelo = ?
+    
+    metodos:    
+    def ligar()
+    def parar()
+    def estacionar()
+
+
+class Sapato():
+        atributos:
+    def __init__():
+        self.cor = ?
+        self.tamanho = ?
+        self.modelo = ?
+    
+    metodos:    
+    def calçar()
+    def lavar()
+    def amarrar()
+
+class Musica():
+        atributos:
+    def __init__():
+        self.compositor = ?
+        self.refrao = ?
+        self.nome = ?
+    
+    metodos:    
+    def repetir_refrao()
+    def repetir_partitura()
+    def instrumental()
+
+class Latido():
+        atributos:
+    def __init__():
+        self.origem = ?
+        self.decibeis = ?
+        self.tempo = ?
+    
+    metodos:    
+    def assustar()
+    def chamar_atencao()
+    def chorar()
