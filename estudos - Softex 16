@@ -1,0 +1,23 @@
+def operacao(num1, num2, opcao):
+  if opcao == 1:
+    soma = num1 + num2
+    print(soma)
+  elif opcao == 2:
+    subt = num1 - num2
+    print(subt)
+  elif opcao == 3:
+    mult = num1 * num2
+    print(mult)
+  elif opcao == 4:
+    div = num1 / num2
+    print(div)
+  else:
+    return 0
+    
+condicao = 1
+while condicao == 1:
+  num1 = int(input("digite um numero: "))
+  num2 = int(input("digite um numero: "))
+  opcao = int(input("digite um numero: "))
+  operacao(num1, num2, opcao)
+  condicao = int(input("realizar operaçao? sim:1 ou nao:0"))
