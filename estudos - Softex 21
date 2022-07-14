@@ -1,0 +1,22 @@
+class Apertar():
+    def num1(self, num):
+        cont1 = 0
+        cont2 = 0
+        if num == 1:
+            cont1+=1
+        elif num == 2:
+            cont2+=1
+        else:
+            print("fim")
+        print("numero 1: ", cont1, "numero 2: ", cont2)
+apertar = Apertar()
+cont = 1
+while cont == 1:
+    x = int(input("digite um numero: "))
+    apertar.num1(x)
+    contin = int(input("digite um numero p continuar: "))
+    if contin == 1:
+        cont = 1
+    else:
+      print() 
+      break   
