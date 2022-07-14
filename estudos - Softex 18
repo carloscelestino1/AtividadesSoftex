@@ -1,0 +1,40 @@
+x = []
+y = []
+z = []
+n = []
+class Votacao():
+  def eleicao(self, num):
+    if num == 889:
+      print("candidato x")
+      x.append(1)
+    elif num == 847:
+      print("candidato y")
+      y.append(1)
+    elif num == 515:
+      print("candidato z")
+      z.append(1)
+    else:
+      print("voto nulo!")
+      n.append(1)
+
+votar = Votacao()
+cont = 1
+while cont == 1:
+  try:
+    num = int(input("digite o numero do candidato: "))
+    votar.eleicao(num)
+    confirmar = int(input("deseja confirmar o voto? "))
+    if confirmar == 1:
+      print("voto confirmado!")
+      cont = int(input("deseja votar novamente? sim(1) ou não(0)"))
+      if cont == 0:
+        print("total do candidato x: ",sum(x),"total do candidato y: ",sum(y),"total do candidato z: ",sum(z),"total de nulos: ",sum(n))
+      else:
+        cont = 1
+    else:
+      cont = 1
+  except:
+    print("informação errada! tente novamente!")
+    cont = 1
+else:
+  print("até logo!")
