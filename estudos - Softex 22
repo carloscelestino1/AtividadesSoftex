@@ -1,0 +1,25 @@
+class Pessoa():
+  def __init__(self,nome,idade):
+    self.__nome = nome
+    self.__idade = idade
+
+  def get_nome(self, nome):
+    return self.__nome
+
+  def set_nome(self, nome):
+    self.__nome
+  
+  def get_idade(self, idade):
+    return self.__idade
+
+  def set_idade(self, idade):
+    self.__idade
+
+
+pessoa = Pessoa("carlos", 28)
+pessoa.get_nome()
+pessoa.set_nome("chico")
+pessoa.get_nome()
+pessoa.get_idade()
+pessoa.set_idade(35)
+pessoa.get_idade("chico")
