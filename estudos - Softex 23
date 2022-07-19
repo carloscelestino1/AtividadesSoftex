@@ -1,0 +1,13 @@
+package br.softex.alunos;
+
+    class Aluno {
+        String nome;
+    }
+
+
+package br.softex.alunos;
+
+    class Aluno {
+        String nome;
+        String endereco;
+    }
