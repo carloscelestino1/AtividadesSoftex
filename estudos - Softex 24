@@ -1,0 +1,8 @@
+palavra1 = "Eu estou estudando"
+palavra1_modificada = palavra1.upper()
+
+palavra2 = "Eu estou estudando"
+palavra2_modificada = palavra2.split()
+
+palavra3 = "Eu estou estudando"
+palavra3_modificada = palavra3.count("d")
