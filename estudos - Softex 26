@@ -1,0 +1,12 @@
+public class Dividir {
+    int d, a;
+
+    try {
+      d = 0;
+      a = 42 / d;
+      System.out.println("nada.");
+    } catch (ArithmeticException e) { //
+      System.out.println("Dividir por 0.");
+    }
+    System.out.println("depois.");
+}
