@@ -1,0 +1,24 @@
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class NovoAluno{
+
+    FileOutputStream = new FileOutputStream("c:\ alunos.xls");
+    ObjectOutputStream = new ObjectOutputStream("alunos.xls");
+    alunos.writeObject("alunos.xls");
+    alunos.close();
+
+}
+
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+public
+
+
+class ReadObject{
+    FileInputStream "alunos.xls"  = new FileInputStream("c:\ alunos.xls");
+    ObjectInputStream "alunos.xls" = new ObjectInputStream("alunos.xls");
+    alunos = ("alunos.xls") "alunos.xls".readObject();
+    alunos.close();
