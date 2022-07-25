@@ -1,1 +1,19 @@
+var nota1 = 4
+var nota2 = 3
+var nota3 = 5
 
+function nome(){
+    console.log("carlos")
+}
+
+function operacao(nota1,nota2,nota3) {
+    condicao = (((nota1+nota2+nota3)/3)>=7) ? "aprovado": "reprovado"
+    return condicao
+    
+}
+
+var soma = (nota1,nota2)=> nota1+nota2
+console.log(soma(20,5))
+
+nome()
+console.log(operacao())
