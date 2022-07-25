@@ -1,0 +1,11 @@
+var nota1 = 4
+var nota2 = 3
+var nota3 = 5
+
+condicao = (((nota1+nota2+nota3)/3)>=7) ? "aprovado": "reprovado"
+console.log(condicao)
+
+var nota1 = 4
+var nota2 = 3
+var nota3 = 7-((nota1 + nota2)/2)
+console.log(nota3)
