@@ -1,0 +1,11 @@
+Padrões de criação
+Os padrões de criação são aqueles que abstraem e ou adiam o processo criação dos objetos. Eles ajudam a tornar um sistema independentemente de como seus objetos são criados, compostos e representados. Um padrão de criação de classe usa a herança para variar a classe que é instanciada, enquanto um padrão de criação de objeto delegará a instanciação para outro objeto.
+
+A importância dos padrões de projeto
+O mais importante sobre os padrões é que eles são soluções aprovadas. Cada catálogo inclui apenas padrões que foram considerados úteis por diversos desenvolvedores em vários projetos. Os padrões catalogados também são bem definidos; os autores descrevem cada padrão com muito cuidado e em seu próprio contexto, portanto será fácil aplicar o padrão em suas próprias circunstâncias. Eles também formam um vocabulário comum entre os desenvolvedores.
+
+Quando os padrões não o ajudarão
+Os padrões são um mapa, não uma estratégica. Os catálogos geralmente apresentarão algum código-fonte como uma estratégica de exemplo, portanto eles não devem ser considerados como definitivos. Os padrões não ajudarão a determinar qual aplicação você deve estar escrevendo apenas como implementar melhor a aplicação assim que o conjunto de recursos e outras exigências forem determinados. Os padrões ajudam com o que e como, mas não com por que ou quando.
+
+fonte:
+https://www.devmedia.com.br/conheca-os-padroes-de-projeto/957
