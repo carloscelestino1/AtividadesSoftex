@@ -1,0 +1,5 @@
+campo de pesquisas do site do google:
+<input class="gLFyf gsfi" jsaction="paste:puy29d;" maxlength="2048" name="q" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Pesquisar" value="" aria-label="Pesquisar" data-ved="0ahUKEwif7_u06pT5AhUgupUCHTboBEgQ39UDCAQ">
+
+
+aguarda um input do usuário para retornar o objeto desejado.
