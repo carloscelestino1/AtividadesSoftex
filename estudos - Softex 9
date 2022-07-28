@@ -1,13 +1,26 @@
-class CalcularNumeros():
-    def calculo(self, num1, num2, num3):
-        soma = num1 + num2 + num3
-        subtrair = num1 - num2 - num3
-        multplicar = num1 * num2 * num3
-        dividir = num1 / num2 / num3
-        print("A soma é: ", soma,". A subtração é: ", subtrair, ". A multiplicação é: ", multplicar, ". A divisão é: ", dividir)
 
+class CalcularNumeros():
+    def calculo(self,a,b,c,d,e,f):
+        
+        somz1e2e3 = (a + c + e) #parte real
+        somz1e2e3i = (b + d + f) #parte imaginaria
+        subz1e2e3 = (a - c - e) #parte real
+        subz1e2e3i = (b - d - f) #parte imaginaria
+        multz1e2e3 = (a * c * e) #parte real
+        multz1e2e3i = (b * d * f) #parte imaginaria
+        divz1e2e3 = (a / c / e) #parte real
+        divz1e2e3i = (b / d / f) #parte imaginaria
+        print("a soma da parte real é: ",somz1e2e3,". A soma da parte imaginaria é: ", somz1e2e3i,"i")
+        print("a subtração da parte real é: ",subz1e2e3,". A subtração da parte imaginaria é: ", subz1e2e3i,"i")
+        print("a multiplicação da parte real é: ",multz1e2e3,". A multiplicação da parte imaginaria é: ", multz1e2e3i,"i")
+        print("a divisão da parte real é: ",divz1e2e3,". A divisão da parte imaginaria é: ", divz1e2e3i,"i")
+
+        
 calcular = CalcularNumeros()
-num1 = int(input("digite um numero: "))
-num2 = int(input("digite um numero: "))
-num3 = int(input("digite um numero: "))
-calcular.calculo(num1, num2, num3)
+a = int(input("digite um numero: "))
+b = int(input("digite um numero: "))
+c = int(input("digite um numero: "))
+d = int(input("digite um numero: "))
+e = int(input("digite um numero: "))
+f = int(input("digite um numero: "))
+calcular.calculo(a,b,c,d,e,f)
