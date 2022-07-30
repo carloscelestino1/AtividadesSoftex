@@ -1,0 +1,34 @@
+/*Desenvolva um código e crie nele:
+
+- um objeto com, no mínimo, três propriedades;
+- um array de tamanho três no mínimo;
+- duas funções, a primeira lista as propriedades do objeto e a segunda, os elementos do array.*/
+
+
+var nomes = ["bobby", "chico", "dobby"]
+var pesos = [12,15,10]
+var racas = ["husky", "pastor", "dausch"]
+class Cachorro {
+    constructor(nome, peso, raca){
+        this.nome = nome;
+        this.peso = peso;
+        this.raca = raca;
+    }
+
+    arquivo (nome, peso, raca) {
+        nomes.push(nome)
+        pesos.push(peso)
+        racas.push(raca)
+        
+    }
+}
+
+var dog = new Cachorro()
+var nome = "marley"
+var peso = 18
+var raca = "goldenn"
+dog.arquivo(nome,peso,raca)
+var indice = nomes.indexOf("dobby")
+console.log(nomes[indice]," tem ", pesos[indice], "kg, e é da raça ",racas[indice])
+console.log()
+
