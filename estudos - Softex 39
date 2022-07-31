@@ -1,1 +1,37 @@
 
+const Sequelize = require('sequelize');
+const database = require('./db')
+const sequelize = new Sequelize('teste', 'root','',{
+    host: 'localhost',
+    dialect: 'mysql'
+})
+module.exports = sequelize;
+sequelize.authenticate().then(function(){
+    console.log('conectado com sucesso!')
+}).catch(function(erro){
+    console.log('falha ao se conectar: ', +erro)
+})
+const Produto = database.deine('produto',{
+     id:{
+        type:Sequelize.INTEGER,
+        autoIncremente: true,
+        allowNull: false,
+        primarykey: true
+     },
+     nome: {
+        type: Sequelize.STRING,
+        allowNull: false
+     },
+     preco: {
+        type:Sequelize.DOUBLE
+     },
+     descricao: Sequelize.STRING
+})
+module.exports = Produto;
+
+
+
+
+  /*as funções .then() e .catch() pertecem à JS e servem para 
+  retornar informações. Nesse caso de cima, caso a conexão ocorra,
+  a função .then() será chamada. Caso dê erro, a .catch() atuará.*/
